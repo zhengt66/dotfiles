@@ -10,3 +10,6 @@ set bg=light "sets vim color scheme to colors that suit a light background"
 set backup "Vim will create a backup of a file before overwriting that filename and save it"
 set backupdir=~/.backup "sets the directory for backup files to ~/.backup"
 set directory=~/.vimswap "sets the name of the directory where a swap file for a given file can be found"
+
+set visualbell "disable beeping in vim in WSL linux terminal"
+set t_vb=
